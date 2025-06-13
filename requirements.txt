@@ -1,0 +1,15 @@
+faiss-cpu
+fastapi
+google-generativeai
+markdownify
+numpy
+pillow
+playwright
+python-dotenv
+requests
+sentence-transformers
+torch
+transformers
+uvicorn
+uvloop
+wheel

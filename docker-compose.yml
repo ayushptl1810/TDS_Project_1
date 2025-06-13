@@ -1,0 +1,17 @@
+version: "3.13"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - vector_store:/app/vector_store
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+volumes:
+  vector_store:
+    driver: local
