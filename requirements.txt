@@ -8,7 +8,6 @@ playwright
 python-dotenv
 requests
 sentence-transformers
-torch
 transformers
 uvicorn
 uvloop
